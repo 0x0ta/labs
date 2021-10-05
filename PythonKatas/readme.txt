@@ -1,1 +1,1 @@
-collection of labs from codewars.com
+collection of python labs from codewars.com
