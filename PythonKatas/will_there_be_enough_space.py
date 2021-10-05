@@ -1,2 +1,2 @@
 def enough(cap, on, wait):
-    return int("".join("0" if wait + on < cap else str(cap - (wait + on)).replace("-", "")))
+    return 0 if wait + on < cap else abs(cap - (wait + on))
