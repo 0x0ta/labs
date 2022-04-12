@@ -1,11 +1,13 @@
 import re
 
+
 def is_regex(regex):
-    try: 
+    try:
         re.compile(regex)
-    except re.error: 
+    except re.error:
         return False
     return True
+
 
 for i in range(int(input())):
     print(is_regex(input()))

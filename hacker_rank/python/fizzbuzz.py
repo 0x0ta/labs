@@ -1,21 +1,14 @@
 #!/bin/python
 
-import math
-import os
-import random
-import re
-import sys
-
-
 def fizzBuzz(n):
     i = 0
     while i < n:
         i += 1
-        if int(i % 3 == 0) == True and int(i % 5 == 0) == True:
+        if int(i % 3 == 0) is True and int(i % 5 == 0) is True:
             print("FizzBuzz")
-        elif int(i % 3 == 0) == True and int(i % 5 == 0) == False:
+        elif int(i % 3 == 0) is True and int(i % 5 == 0) is False:
             print("Fizz")
-        elif int(i % 3 == 0) == False and int(i % 5 == 0) == True:
+        elif int(i % 3 == 0) is False and int(i % 5 == 0) is True:
             print("Buzz")
         else:
             print(i)
