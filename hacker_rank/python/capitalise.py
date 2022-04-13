@@ -1,5 +1,9 @@
+import os
+
+
 def solve(s):
     return " ".join(each.capitalize() for each in s.split(" "))
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
