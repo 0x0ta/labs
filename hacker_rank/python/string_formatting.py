@@ -1,10 +1,10 @@
 number = 17
 
 def print_formatted(number):
-    spacer = len(str(format(number, 'b'))) +1#.replace('0b',''))) + 1
+    spacer = len(str(format(number, 'b'))) +1
     for i in range(1, int(number+1)):
         a = i
-        b = format(i, 'o')#.replace('0o', '')
+        b = format(i, 'o')
         c = format(i, 'X')
         d = format(i, 'b')
         
