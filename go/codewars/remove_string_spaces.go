@@ -10,6 +10,6 @@ func NoSpace(word string) string {
   for i := 0; i < len(v); i++ {
     out = out + v[i]
   }
-  return out
+  return out`
   
 }
