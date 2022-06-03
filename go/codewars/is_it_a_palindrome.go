@@ -5,11 +5,12 @@ import (
 )
 
 func IsPalindrome(str string) bool {
+	str = strings.ToLower(str)
 	palin := ""
 	for i := 1; i <= len(str); i++ {
 		palin += string(str[len(str)-i])
 	}
-	if strings.ToLower(palin) == strings.ToLower(str) {
+	if palin == str {
 		return true
 	} else {
 		return false
