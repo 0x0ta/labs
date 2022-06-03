@@ -6,8 +6,8 @@ import (
 
 type person struct {
 	name string
-	age int
-	boo bool
+	age  int
+	boo  bool
 }
 
 func pointer(x *int) {
