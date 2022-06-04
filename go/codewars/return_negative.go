@@ -1,5 +1,10 @@
 package kata
 
 func MakeNegative(x int) int {
-	return 0 - x
+	if x > 0 {
+		return 0 - x
+	} else {
+		return x
+	}
+
 }
