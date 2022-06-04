@@ -7,5 +7,5 @@ import (
 func AbbrevName(name string) string {
 	names := strings.Split(name, " ")
 	abbr := string(names[0][0]) + "." + string(names[1][0])
-	return abbr
+	return strings.ToUpper(abbr)
 }
