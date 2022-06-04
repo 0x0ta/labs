@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func countSheep(num int) string {
+func CountSheep(num int) string {
 	output, sheep := "", " sheep..."
 	for i := 0; i < num; i++ {
 		o := fmt.Sprintf(strconv.Itoa(i+1) + sheep)

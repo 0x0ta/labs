@@ -1,12 +1,12 @@
 package kata
 
 func OddCount(n int) int {
-	output := []int{}
+	output := 0
 	for i := 1; i < n; i++ {
 		if i%2 == 0 {
-			output = append(output, i)
+			output += 1
 		}
 	}
 
-	return len(output)
+	return output
 }
