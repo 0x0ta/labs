@@ -1,7 +1,6 @@
 package kata
 
 import (
-	//"strings"
 	"fmt"
 )
 
